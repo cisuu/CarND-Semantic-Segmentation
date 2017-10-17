@@ -1,4 +1,39 @@
 # Semantic Segmentation
+### Parameters
+```
+epochs = 45
+batch_size = 5
+learning_rate = 0.0008
+keep_prob = 0.5
+```
+
+### Learning process
+Loss is decreasing during learning process. For example lets take a look on 5th/45 epoch run:
+```
+Epoch: 5
+Loss: = 0.333
+Loss: = 0.316
+Loss: = 0.305
+...
+Loss: = 0.264
+Loss: = 0.254
+Loss: = 0.280
+```
+
+### Finding correct part of image:
+![alt example_image](./output/final_run/um_000000.png)
+
+![alt example_image](./output/final_run/um_000024.png)
+
+![alt example_image](./output/final_run/umm_000026.png)
+
+![alt example_image](./output/final_run/umm_000061.png)
+
+![alt example_image](./output/final_run/uu_000075.png)
+
+![alt example_image](./output/final_run/uu_000098.png)
+
+
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
@@ -31,6 +66,6 @@ python main.py
  - `main.py`
  - `project_tests.py`
  - Newest inference images from `runs` folder  (**all images from the most recent run**)
- 
+
  ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
